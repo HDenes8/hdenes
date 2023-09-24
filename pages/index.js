@@ -67,8 +67,10 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
             <div>
                 <h3 className="text-3xl py-1 dark:text-white ">Rólam / Amivel foglalkozom 👈</h3>
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Engem  <span className="text-fuchsia-500"> Horváth Dénes</span>-nek hívnak és szoftverfejlesztőnek tanulnok a Szegedi Tudományegyetemen. A szakmával kapcsolatban nagyon motivált és eredményorientált vagyok, célom, hogy minél több mindent elsajátítsak és megértsek. Jelenlegi tanulmányaim során aktívan veszek részt a termékfejlesztés különböző fázisaiban, mint a tervezés, kódolás és tesztelés, valamint az előírt minőségi, biztonsági és architekturális elveket alkalmazom a tervezés, kódolás és egyéb fejlesztési tevékenységek során. </p>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Technológia szempontból jelenleg ezekkel foglalkozom: <span className="text-fuchsia-500"> HTML5,CSS3/SCCS,JavaScript(ES6),React,Wordpress,C#,Java,Git. </span> </p>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Szeretem a multimédiás feladatokat, mint például képszerkesztés(Figma/Photoshop),videóvágás(Davinci Resolve),dokumentum szerkesztés(Microsoft Office csomag).</p>
+                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Technológia szempontból jelenleg ezekkel foglalkozom: </p>
+                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> <span className="text-fuchsia-500"> HTML5,CSS3/SCCS,JavaScript(ES6) </span> </p>
+                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> <span className="text-fuchsia-500"> React,Wordpress,C#,Java,Git </span> </p>
+                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Szeretem a multimédiás feladatokat, mint például képszerkesztés(Figma/Photoshop), dokumentum szerkesztés(Microsoft Office csomag).</p>
 
             </div>
             <div className="lg:flex gap-10">
