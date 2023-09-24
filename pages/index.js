@@ -45,16 +45,16 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
                 <h2 className="text-5xl py-2 text-fuchsia-600 font-medium dark:text-fuchsia-400 md:text-6xl"> Horváth Dénes </h2>
                 <h3 className="text-2xl py-2 dark:text-white md:text-3xl"> Junior szoftverfejlesztő </h3>
                 <div className="text-5xl flex justify-center gap-16 pt-12 py-3 text-gray-600 dark:text-gray-400">
-                    <a href="https://github.com/HDenes8" target="_blank">
+                    <a href="https://github.com/HDenes8" target="_blank" rel="noreferrer">
                         <AiFillGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/denes-horvath/" target="_blank">
+                    <a href="https://www.linkedin.com/in/denes-horvath/" target="_blank" rel="noreferrer">
                         <AiFillLinkedin />
                     </a>
                     <a href="mailto:denes.horvath.email@gmail.com?subject=Üzenet">
                         <AiOutlineMail />
                     </a>
-                    <a href="tel:+36306504405" target="_blank">
+                    <a href="tel:+36306504405" target="_blank" rel="noreferrer">
                         <AiFillPhone />
                     </a>
                 </div>
