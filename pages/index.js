@@ -83,7 +83,7 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
                     <p className="text-gray-800 py-1">GIT</p>
                 </div>
                 <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-                    <Image src={code} width={100} height={100} />
+                    <Image src={code} width={100} height={100} alt="kep" />
                     <h3 className="text-lg font-medium pt-8 pb-2 "> Hobbi projektek </h3>
                     <h4 className="py-4 text-fuchsia-600">Amiből ötletet merítek</h4>
                     <p className="text-gray-800 py-1">Udemy kurzusok</p>
@@ -93,7 +93,7 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
                     <p className="text-gray-800 py-1">Applikációk</p>
                 </div>
                 <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-                    <Image src={consulting} width={100} height={100} />
+                    <Image src={consulting} width={100} height={100} alt="kep" />
                     <h3 className="text-lg font-medium pt-8 pb-2 ">Egyéb</h3>
                     <h4 className="py-4 text-fuchsia-600">Amivel foglalkozok még</h4>
                     <p className="text-gray-800 py-1">Számítógép karbantartás (pc/laptop)</p>
