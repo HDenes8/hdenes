@@ -54,7 +54,7 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
                     <a href="mailto:denes.horvath.email@gmail.com" aria-label="Mail link">
                         <AiOutlineMail />
                     </a>
-                    <a href="tel:+36306504405" target="_blank" rel="noreferrer">
+                    <a href="tel:+36306504405" target="_blank" rel="noreferrer" aria-label="Telefonszám">
                         <AiFillPhone />
                     </a>
                 </div>
@@ -73,7 +73,7 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
             </div>
             <div className="lg:flex gap-10">
                 <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                    <Image src={design} width={100} height={100} />
+                    <Image src={design} width={100} height={100} alt="kep"/>
                     <h3 className="text-lg font-medium pt-8 pb-2  "> Weblap és applikáció készítés </h3>
                     <h4 className="py-4 text-fuchsia-600">Amit használok</h4>
                     <p className="text-gray-800 py-1">React</p>
@@ -111,22 +111,22 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                 <div className="basis-1/3 flex-1 ">
-                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web1} />
+                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web1} alt="kep"/>
                 </div>
                 <div className="basis-1/3 flex-1">
-                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web2} />
+                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web2} alt="kep"/>
                 </div>
                 <div className="basis-1/3 flex-1">
-                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web3} />
+                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web3} alt="kep"/>
                 </div>
                 <div className="basis-1/3 flex-1">
-                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web4} />
+                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web4} alt="kep"/>
                 </div>
                 <div className="basis-1/3 flex-1">
-                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web5} />
+                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web5} alt="kep"/>
                 </div>
                 <div className="basis-1/3 flex-1">
-                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web6} />
+                    <Image className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" src={web6} alt="kep"/>
                 </div>
             </div>
         </section>
