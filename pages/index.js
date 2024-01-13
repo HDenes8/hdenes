@@ -37,7 +37,7 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
                         <BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode)} className=" cursor-pointer text-2xl" />
                     </li>
                     <li>
-                        <a className="bg-gradient-to-r from-cyan-500 text- to-fuchsia-500 text-white px-4 py-2 border-none rounded-md ml-8" href="/denes_horvath_resume.pdf" target="_blank"> Önéletrajz letöltése </a>
+                        <a className="bg-gradient-to-r from-cyan-500 text- to-fuchsia-500 text-white px-4 py-2 border-none rounded-md ml-8" href="/denes_horvath_resume.pdf" target="_blank"> Download CV </a>
                     </li>
                 </ul>
             </nav>
