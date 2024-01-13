@@ -42,8 +42,8 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
                 </ul>
             </nav>
             <div className="text-center p-10 py-10">
-                <h2 className="text-5xl py-2 text-fuchsia-600 font-medium dark:text-fuchsia-400 md:text-6xl"> Horváth Dénes </h2>
-                <h3 className="text-2xl py-2 dark:text-white md:text-3xl"> Junior szoftverfejlesztő </h3>
+                <h2 className="text-5xl py-2 text-fuchsia-600 font-medium dark:text-fuchsia-400 md:text-6xl"> Dénes Horváth </h2>
+                <h3 className="text-2xl py-2 dark:text-white md:text-3xl"> Junior developer </h3>
                 <div className="text-5xl flex justify-center gap-16 pt-12 py-3 text-gray-600 dark:text-gray-400">
                     <a href="https://github.com/HDenes8" target="_blank" rel="noreferrer" aria-label="GitHub link">
                         <AiFillGithub />
@@ -65,51 +65,51 @@ export default function Home() { const [darkMode, setDarkMode] = useState(true);
         </section>
         <section>
             <div>
-                <h3 className="text-3xl py-1 dark:text-white ">Rólam / Amivel foglalkozom 👈</h3>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Engem  <span className="text-fuchsia-500"> Horváth Dénes</span>-nek hívnak és szoftverfejlesztőnek tanulok a Szegedi Tudományegyetemen. A szakmával kapcsolatban nagyon motivált és eredményorientált vagyok, célom, hogy minél több mindent elsajátítsak és megértsek. Jelenlegi tanulmányaim során aktívan veszek részt a termékfejlesztés különböző fázisaiban, mint a tervezés, kódolás és tesztelés, valamint az előírt minőségi, biztonsági és architekturális elveket alkalmazom a tervezés, kódolás és egyéb fejlesztési tevékenységek során. </p>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Technológia szempontból jelenleg ezekkel foglalkozom: </p>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> <span className="text-fuchsia-500"> HTML5,CSS3/SCCS,JavaScript(ES6) </span> </p>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> <span className="text-fuchsia-500"> React,Wordpress,C#,Java,Git </span> </p>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Szeretem a multimédiás feladatokat, mint például képszerkesztés(Figma/Photoshop), dokumentum szerkesztés(Microsoft Office csomag).</p>
+            <h3 className="text-3xl py-1 dark:text-white ">About me 👈</h3>
+<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> My name is <span className="text-fuchsia-500"> Dénes Horváth</span>, and I am studying software development at the University of Szeged. I am highly motivated and results-oriented in the field, aiming to acquire and understand as much as possible. Currently, during my studies, I actively participate in various phases of product development, such as planning, coding, and testing, applying prescribed quality, safety, and architectural principles in the processes of design, coding, and other development activities. </p>
+<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> From a technological perspective, I am currently working with: </p>
+<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> <span className="text-fuchsia-500"> HTML5, CSS3/SCSS, JavaScript (ES6) </span> </p>
+<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> <span className="text-fuchsia-500"> React, WordPress, C#, Java, Git </span> </p>
+<p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> I enjoy multimedia tasks, such as image editing (Figma/Photoshop) and document editing (Microsoft Office suite).</p>
+</div>
+<div className="lg:flex gap-10">
+    <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+        <Image src={design} width={100} height={100} alt="image"/>
+        <h3 className="text-lg font-medium pt-8 pb-2  "> Website and Application Development </h3>
+        <h4 className="py-4 text-fuchsia-600"> What I Use</h4>
+        <p className="text-gray-800 py-1"> React</p>
+        <p className="text-gray-800 py-1"> Wordpress</p>
+        <p className="text-gray-800 py-1"> HTML5, CCS3/SCSS, JS (ES6)</p>
+        <p className="text-gray-800 py-1"> Bootstrap 4/5</p>
+        <p className="text-gray-800 py-1"> GIT</p>
+    </div>
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <Image src={code} width={100} height={100} alt="image" />
+        <h3 className="text-lg font-medium pt-8 pb-2 "> Hobby Projects </h3>
+        <h4 className="py-4 text-fuchsia-600">Where I Draw Inspiration</h4>
+        <p className="text-gray-800 py-1"> Udemy courses</p>
+        <p className="text-gray-800 py-1"> Bootcamps</p>
+        <p className="text-gray-800 py-1"> CMS systems</p>
+        <p className="text-gray-800 py-1"> Layouts</p>
+        <p className="text-gray-800 py-1"> Applications</p>
+    </div>
+    <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+        <Image src={consulting} width={100} height={100} alt="image" />
+        <h3 className="text-lg font-medium pt-8 pb-2 ">Other</h3>
+        <h4 className="py-4 text-fuchsia-600">What I Also Do</h4>
+        <p className="text-gray-800 py-1"> Computer maintenance (PC/laptop)</p>
+        <p className="text-gray-800 py-1"> Phone maintenance</p>
+        <p className="text-gray-800 py-1"> System administration tasks</p>
+        <p className="text-gray-800 py-1"> Knowledge of Microsoft Office suite</p>
+    </div>
+</div>
+</section>
+<section className="py-10">
+<div>
+    <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
+    <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The portfolio is currently under <span className="text-fuchsia-500">construction</span> and <span className="text-fuchsia-500">development</span>...✌️ </p>
+    <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> The images shown here are for <span className="text-fuchsia-500">testing</span> purposes only. ❗️ </p>
 
-            </div>
-            <div className="lg:flex gap-10">
-                <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                    <Image src={design} width={100} height={100} alt="kep"/>
-                    <h3 className="text-lg font-medium pt-8 pb-2  "> Weblap és applikáció készítés </h3>
-                    <h4 className="py-4 text-fuchsia-600">Amit használok</h4>
-                    <p className="text-gray-800 py-1">React</p>
-                    <p className="text-gray-800 py-1">Wordpress</p>
-                    <p className="text-gray-800 py-1">HTML5,CCS3/SCSS,JS(ES6)</p>
-                    <p className="text-gray-800 py-1">Bootstrap 4/5</p>
-                    <p className="text-gray-800 py-1">GIT</p>
-                </div>
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-                    <Image src={code} width={100} height={100} alt="kep" />
-                    <h3 className="text-lg font-medium pt-8 pb-2 "> Hobbi projektek </h3>
-                    <h4 className="py-4 text-fuchsia-600">Amiből ötletet merítek</h4>
-                    <p className="text-gray-800 py-1">Udemy kurzusok</p>
-                    <p className="text-gray-800 py-1">Bootcamp-ek</p>
-                    <p className="text-gray-800 py-1">CMS rendszerek</p>
-                    <p className="text-gray-800 py-1">Layoutok</p>
-                    <p className="text-gray-800 py-1">Applikációk</p>
-                </div>
-                <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-                    <Image src={consulting} width={100} height={100} alt="kep" />
-                    <h3 className="text-lg font-medium pt-8 pb-2 ">Egyéb</h3>
-                    <h4 className="py-4 text-fuchsia-600">Amivel foglalkozok még</h4>
-                    <p className="text-gray-800 py-1">Számítógép karbantartás (pc/laptop)</p>
-                    <p className="text-gray-800 py-1">Telefon karbantartás</p>
-                    <p className="text-gray-800 py-1">Rendszergazdai feladatok ellátása</p>
-                    <p className="text-gray-800 py-1">Microsoft Office csomag ismerete</p>
-                </div>
-            </div>
-        </section>
-        <section className="py-10">
-            <div>
-                <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Portfólió jelenleg még <span className="text-fuchsia-500"> feltöltés </span> és <span className="text-fuchsia-500">fejlesztés </span> alatt...✌️ </p>
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"> Az itt látható képek csak teszt jellegel vannak használva❗️ </p>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                 <div className="basis-1/3 flex-1 ">
