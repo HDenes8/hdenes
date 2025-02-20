@@ -22,7 +22,7 @@ export default function Home() {
     const websites = [
         { url: "https://example1.com", image: web1, alt: "Example 1" },
         { url: "https://youtube.com", image: web2, alt: "Example 2" },
-        { url: "https://example3.com", image: web3, alt: "Example 3" },
+        { url: "https://google.com", image: web3, alt: "Example 3" },
         { url: "https://example4.com", image: web4, alt: "Example 4" },
         { url: "https://example5.com", image: web5, alt: "Example 5" },
         { url: "https://example6.com", image: web6, alt: "Example 6" }
