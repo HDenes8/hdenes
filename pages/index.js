@@ -66,9 +66,9 @@ export default function Home() {
                             <a href="mailto:denes.horvath.email@gmail.com" aria-label="Mail link">
                                 <AiOutlineMail />
                             </a>
-                            <a href="tel:+36306504405" target="_blank" rel="noreferrer" aria-label="Telefonszám">
+                            {/*<a href="tel:+36306504405" target="_blank" rel="noreferrer" aria-label="Telefonszám">
                                 <AiFillPhone />
-                            </a>
+                            </a>*/}
                         </div>
                         <div className="mx-auto bg-gradient-to-b from-fuchsia-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
                             <Image src={deved} layout="fill" objectFit="cover" alt="kep" />
