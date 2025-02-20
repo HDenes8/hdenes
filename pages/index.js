@@ -123,7 +123,7 @@ export default function Home() {
                             The portfolio is currently under <span className="text-fuchsia-500">construction</span> and <span className="text-fuchsia-500">development</span>...✌️
                         </p>
                         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-                            The images shown here are for <span className="text-fuchsia-500">testing</span> purposes only. ❗️
+                            The images and weblinks shown here are for <span className="text-fuchsia-500">testing</span> purposes only. ❗️
                         </p>
                     </div>
                     <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
