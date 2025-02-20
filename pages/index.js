@@ -20,12 +20,12 @@ export default function Home() {
     const [darkMode, setDarkMode] = useState(true); 
 
     const websites = [
-        { url: "https://example1.com", image: web1, alt: "Example 1" },
-        { url: "https://youtube.com", image: web2, alt: "Example 2" },
-        { url: "https://google.com", image: web3, alt: "Example 3" },
-        { url: "https://example4.com", image: web4, alt: "Example 4" },
-        { url: "https://example5.com", image: web5, alt: "Example 5" },
-        { url: "https://example6.com", image: web6, alt: "Example 6" }
+        { url: "https://carvilla-v1-0-one.vercel.app",      image: web1, alt: "Example 1" },
+        { url: "https://mediplus-lite-liart.vercel.app",    image: web2, alt: "Example 2" },
+        { url: "https://html2025-02-20-xvw8.vercel.app",    image: web3, alt: "Example 3" },
+        { url: "https://listrace-v1-0-eight.vercel.app",    image: web4, alt: "Example 4" },
+        { url: "https://finexo-html-eight.vercel.app",      image: web5, alt: "Example 5" },
+        { url: "https://pizzarendeles.vercel.app",          image: web6, alt: "Example 6" }
     ];
     return ( 
         <div className={darkMode ? "dark" : "" }>
