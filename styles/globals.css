@@ -45,10 +45,10 @@ a {
 }
 
 /* Dark mode scrollbar */
-.dark-theme *::-webkit-scrollbar-thumb {
+.darkMode *::-webkit-scrollbar-thumb {
   background-color: #9333ea; /* Darker purple for dark mode */
 }
 
-.dark-theme *::-webkit-scrollbar-thumb:hover {
+.darkMode *::-webkit-scrollbar-thumb:hover {
   background-color: #7e22ce;
 }
