@@ -22,6 +22,7 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+/* Default (light mode) scrollbar */
 *::-webkit-scrollbar {
   width: 16px;
   background-color: transparent;
@@ -36,9 +37,18 @@ a {
   border-radius: 8px;
   border: 4px solid transparent;
   background-clip: content-box;
-  background-color: #D946EF;
+  background-color: #D946EF; /* Light mode thumb color */
 }
 
 *::-webkit-scrollbar-thumb:hover {
   background-color: #D946EF;
+}
+
+/* Dark mode scrollbar */
+.dark-theme *::-webkit-scrollbar-thumb {
+  background-color: #9333ea; /* Darker purple for dark mode */
+}
+
+.dark-theme *::-webkit-scrollbar-thumb:hover {
+  background-color: #7e22ce;
 }
