@@ -25,7 +25,7 @@ a {
 /* Light mode scrollbar (default) */
 ::-webkit-scrollbar {
   width: 16px;
-  background-color: #111827;
+  background-color: transparent;
 }
 
 ::-webkit-scrollbar-track {
